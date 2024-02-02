@@ -1,0 +1,12 @@
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/bin/Debug/net7.0/Ecommerce.SOS.Domain.deps.json
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/bin/Debug/net7.0/Ecommerce.SOS.Domain.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/bin/Debug/net7.0/Ecommerce.SOS.Domain.pdb
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/Ecommerce.SOS.Domain.csproj.AssemblyReference.cache
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/Ecommerce.SOS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/Ecommerce.SOS.Domain.AssemblyInfoInputs.cache
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/Ecommerce.SOS.Domain.AssemblyInfo.cs
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/Ecommerce.SOS.Domain.csproj.CoreCompileInputs.cache
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/Ecommerce.SOS.Domain.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/refint/Ecommerce.SOS.Domain.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/Ecommerce.SOS.Domain.pdb
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Core/Elite.Ecommerce.SOS.Domain/obj/Debug/net7.0/ref/Ecommerce.SOS.Domain.dll

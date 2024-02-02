@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OirSkO2NUXEWCmx/ku2dKSkQI7SJbi8PUrSFpG9Yybw=",
+  "Source": "Ecommerce.SOS.Gateway",
+  "BasePath": "_content/Ecommerce.SOS.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

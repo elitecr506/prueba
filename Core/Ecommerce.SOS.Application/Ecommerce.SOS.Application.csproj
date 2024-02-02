@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UserCases\" />
+    <None Remove="Contrats\" />
+    <None Remove="Contrats\Datasources\" />
+    <None Remove="Contrats\UserCases\" />
+    <None Remove="Contrats\Services\" />
+    <None Remove="Contrats\UserCases\Collections\" />
+    <None Remove="UserCases\Collections\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserCases\" />
+    <Folder Include="Contrats\" />
+    <Folder Include="Contrats\Datasources\" />
+    <Folder Include="Contrats\UserCases\" />
+    <Folder Include="Contrats\Services\" />
+    <Folder Include="Contrats\UserCases\Collections\" />
+    <Folder Include="UserCases\Collections\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Elite.Ecommerce.SOS.Domain\Ecommerce.SOS.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Ecommerce.SOS.Gateway.props" />
+</Project>

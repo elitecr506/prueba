@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Constants\" />
+    <None Remove="Enums\" />
+    <None Remove="Models\" />
+    <None Remove="Resources\" />
+    <None Remove="Rules\" />
+    <None Remove="Utils\" />
+    <None Remove="Enums\Gallery\" />
+    <None Remove="Models\Collections\" />
+    <None Remove="Models\Gallery\" />
+    <None Remove="DTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Constants\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Rules\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Enums\Gallery\" />
+    <Folder Include="Models\Collections\" />
+    <Folder Include="Models\Gallery\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+</Project>

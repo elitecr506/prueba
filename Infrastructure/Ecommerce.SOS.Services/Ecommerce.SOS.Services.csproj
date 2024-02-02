@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Ecommerce.SOS.Application\Ecommerce.SOS.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Elite.Ecommerce.SOS.Domain\Ecommerce.SOS.Domain.csproj" />
+  </ItemGroup>
+</Project>

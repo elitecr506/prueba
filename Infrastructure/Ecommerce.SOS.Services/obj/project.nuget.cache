@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Z1GT/zYUBAUuRy4D+Wb4qavh9mNHFFEKRnSLZWhczhcelbg8XTmB1ZrJBppvyTSawTZ2n2l41iVOaUc629BaQ==",
+  "success": true,
+  "projectFilePath": "/Users/hans/Desktop/Prueba/prueba/Infrastructure/Ecommerce.SOS.Services/Ecommerce.SOS.Services.csproj",
+  "expectedPackageFiles": [
+    "/Users/hans/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/hans/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/hans/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/hans/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/hans/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/hans/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

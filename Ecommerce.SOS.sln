@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3B3B6D60-19E5-4E1F-A38C-EF9F17E2BEB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5BA46E78-EB6B-498B-852E-00262657FABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CCD77F71-90B3-4A88-B4FE-97F2260FC502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.SOS.Application", "Core\Ecommerce.SOS.Application\Ecommerce.SOS.Application.csproj", "{B256FD84-1B33-417F-98EC-C9B0F6DB8158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.SOS.Domain", "Core\Elite.Ecommerce.SOS.Domain\Ecommerce.SOS.Domain.csproj", "{5F8A8B55-90F2-474B-B97D-67F2A7B2EF63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.SOS.Services", "Infrastructure\Ecommerce.SOS.Services\Ecommerce.SOS.Services.csproj", "{85D8F89E-1E02-4923-B8B1-4E4646998965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.SOS.Datasources", "Infrastructure\Ecommerce.SOS.Datasources\Ecommerce.SOS.Datasources.csproj", "{28555A32-68F3-4C3B-BB20-1B0FAAF4C676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.SOS.Gateway", "Presentation\Ecommerce.SOS.Gateway\Ecommerce.SOS.Gateway.csproj", "{12EBE583-7556-4F43-92D2-1FF51E78E21A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B256FD84-1B33-417F-98EC-C9B0F6DB8158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B256FD84-1B33-417F-98EC-C9B0F6DB8158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B256FD84-1B33-417F-98EC-C9B0F6DB8158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B256FD84-1B33-417F-98EC-C9B0F6DB8158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8A8B55-90F2-474B-B97D-67F2A7B2EF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8A8B55-90F2-474B-B97D-67F2A7B2EF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8A8B55-90F2-474B-B97D-67F2A7B2EF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8A8B55-90F2-474B-B97D-67F2A7B2EF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D8F89E-1E02-4923-B8B1-4E4646998965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D8F89E-1E02-4923-B8B1-4E4646998965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D8F89E-1E02-4923-B8B1-4E4646998965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D8F89E-1E02-4923-B8B1-4E4646998965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28555A32-68F3-4C3B-BB20-1B0FAAF4C676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28555A32-68F3-4C3B-BB20-1B0FAAF4C676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28555A32-68F3-4C3B-BB20-1B0FAAF4C676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28555A32-68F3-4C3B-BB20-1B0FAAF4C676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12EBE583-7556-4F43-92D2-1FF51E78E21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12EBE583-7556-4F43-92D2-1FF51E78E21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12EBE583-7556-4F43-92D2-1FF51E78E21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12EBE583-7556-4F43-92D2-1FF51E78E21A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90F42B82-EB77-4302-BEEF-CD3AD917938E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B256FD84-1B33-417F-98EC-C9B0F6DB8158} = {3B3B6D60-19E5-4E1F-A38C-EF9F17E2BEB5}
+		{5F8A8B55-90F2-474B-B97D-67F2A7B2EF63} = {3B3B6D60-19E5-4E1F-A38C-EF9F17E2BEB5}
+		{85D8F89E-1E02-4923-B8B1-4E4646998965} = {5BA46E78-EB6B-498B-852E-00262657FABB}
+		{28555A32-68F3-4C3B-BB20-1B0FAAF4C676} = {5BA46E78-EB6B-498B-852E-00262657FABB}
+		{12EBE583-7556-4F43-92D2-1FF51E78E21A} = {CCD77F71-90B3-4A88-B4FE-97F2260FC502}
+	EndGlobalSection
+EndGlobal

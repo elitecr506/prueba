@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MongoDB\" />
+    <None Remove="MongoDB\ContextFactory\" />
+    <None Remove="MongoDB\Entities\" />
+    <None Remove="MongoDB\Implementations\" />
+    <None Remove="MongoDB\Mappers\" />
+    <None Remove="MongoDB\Entities\Bases\" />
+    <None Remove="MongoDB\Entities\Collections\" />
+    <None Remove="MongoDB\Entities\Gallery\" />
+    <None Remove="MongoDB\Constants\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MongoDB\" />
+    <Folder Include="MongoDB\ContextFactory\" />
+    <Folder Include="MongoDB\Entities\" />
+    <Folder Include="MongoDB\Implementations\" />
+    <Folder Include="MongoDB\Mappers\" />
+    <Folder Include="MongoDB\Entities\Bases\" />
+    <Folder Include="MongoDB\Entities\Collections\" />
+    <Folder Include="MongoDB\Entities\Gallery\" />
+    <Folder Include="MongoDB\Constants\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Elite.Ecommerce.SOS.Domain\Ecommerce.SOS.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Ecommerce.SOS.Application\Ecommerce.SOS.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+</Project>

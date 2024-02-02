@@ -1,0 +1,17 @@
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/bin/Debug/net7.0/Ecommerce.SOS.Datasources.deps.json
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/bin/Debug/net7.0/Ecommerce.SOS.Datasources.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/bin/Debug/net7.0/Ecommerce.SOS.Datasources.pdb
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/bin/Debug/net7.0/Ecommerce.SOS.Application.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/bin/Debug/net7.0/Ecommerce.SOS.Domain.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/bin/Debug/net7.0/Ecommerce.SOS.Domain.pdb
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/bin/Debug/net7.0/Ecommerce.SOS.Application.pdb
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.csproj.AssemblyReference.cache
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.AssemblyInfoInputs.cache
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.AssemblyInfo.cs
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.csproj.CoreCompileInputs.cache
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.csproj.CopyComplete
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/refint/Ecommerce.SOS.Datasources.dll
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/Ecommerce.SOS.Datasources.pdb
+/Users/hans/ELITE/e-Commerce/Source code/Backend/Platform/SOS/Infrastructure/Ecommerce.SOS.Datasources/obj/Debug/net7.0/ref/Ecommerce.SOS.Datasources.dll
