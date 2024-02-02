@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ecommerce.sos.gateway:
+    image: ${DOCKER_REGISTRY-}ecommercesos
+    build:
+      context: .
+      dockerfile: Presentation/Ecommerce.SOS.Gateway/Dockerfile

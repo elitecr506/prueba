@@ -6,20 +6,20 @@ EXPOSE 8080
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["Gateway/Gateway.csproj", "Gateway/"]
-COPY ["Application/Application.csproj", "Application/"]
-COPY ["Domain/Domain.csproj", "Domain/"]
-COPY ["Datasources/Datasources.csproj", "Datasources/"]
-COPY ["Services/Services.csproj", "Services/"]
-RUN dotnet restore "Gateway/Gateway.csproj"
+COPY ["Presentation/Ecommerce.SOS.Gateway/Ecommerce.SOS.Gateway.csproj", "Presentation/Ecommerce.SOS.Gateway/"]
+COPY ["Core/Ecommerce.SOS.Application/Ecommerce.SOS.Application.csproj", "Core/Ecommerce.SOS.Application/"]
+COPY ["Core/Elite.Ecommerce.SOS.Domain/Ecommerce.SOS.Domain.csproj", "Core/Elite.Ecommerce.SOS.Domain/"]
+COPY ["Infrastructure/Ecommerce.SOS.Datasources/Ecommerce.SOS.Datasources.csproj", "Infrastructure/Ecommerce.SOS.Datasources/"]
+COPY ["Infrastructure/Ecommerce.SOS.Services/Ecommerce.SOS.Services.csproj", "Infrastructure/Ecommerce.SOS.Services/"]
+RUN dotnet restore "Presentation/Ecommerce.SOS.Gateway/Ecommerce.SOS.Gateway.csproj"
 COPY . .
-WORKDIR "/src/Gateway"
-RUN dotnet build "Gateway.csproj" -c Release -o /app/build
+WORKDIR "/src/Presentation/Ecommerce.SOS.Gateway"
+RUN dotnet build "Ecommerce.SOS.Gateway.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Gateway.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Ecommerce.SOS.Gateway.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Gateway.dll"]
+ENTRYPOINT ["dotnet", "Ecommerce.SOS.Gateway.dll"]

@@ -1,15 +1,23 @@
-﻿<Properties StartupConfiguration="{12EBE583-7556-4F43-92D2-1FF51E78E21A}|https" GitUserInfo="UsingGIT">
+﻿<Properties StartupConfiguration="{F24E0B1C-531D-4E8C-8793-D3986D9DF9FB}|Default" GitUserInfo="UsingGIT">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Ecommerce.SOS.Gateway/Dockerfile">
+    <Files>
+      <File FileName="Presentation/Ecommerce.SOS.Gateway/Dockerfile" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Ecommerce.SOS" expanded="True" selected="True" />
+          <Node name="Ecommerce.SOS" expanded="True">
+            <Node name="Presentation">
+              <Node name="Ecommerce.SOS.Gateway" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Presentation.Ecommerce.SOS.Gateway PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
